@@ -1,17 +1,9 @@
 # Courses List Server
-### Simple list, add, delete using Bootstrap, NodeJS, Express and MongoDB
+### Simple list, add, delete using NodeJS, Express and MongoDB
 #### How it works
-This is a simple add, delete and list example using Bootstrap, NodeJS, Express and, MongoDB.
-To add a course, just click on the + button located at the top of the table list and type in the required fields.\
-\
-To delete an element, click on the trash button of each row in the table list.\
-\
-The list will automatically reload after add or delete an element.
+This is a simple add, delete and list example using NodeJS, Express and, MongoDB.
+To try it you can use Postman or download de client here [Courses list client](https://github.com/raulrobi2018/Courses-list)
 #### Install
 1. Clone or download the project in a preferred location
-2. Go to a command line and in the *Courses list client* location type **npm install**
-3. Type **npm start**
-\
->**Note 1:** You need to have installed and running the Courses List Server before.\
-\
->**Note 2:** You need to enable CORS in the browser, so you will need to install some CORS plugin.
+2. Go to a command line and in the *Courses list server* location type **npm install**
+3. Type **npm start**, it will run at the port 3000
